@@ -1,0 +1,45 @@
+{
+  "development": {
+    "username": "root",
+    "password": "admin1",
+    "database": "pidgeapp",
+    "host": "localhost",
+    "dialect": "mysql",
+    "smtp": {
+      "access_key": "AKIASERAUTYFODMZLNAG",
+      "access_secret": "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",
+      "region": "us-east-1",
+      "from_name": "Pidge",
+      "from_email": "no-reply@mail.pidge.in"
+    },
+    "tokengensalt": "ejwrsdjfsfodsfixsdsdf",
+    "tokengentimestampmap": "amitudaant",
+    "liveUrl": "https://shopifyapp.pidge.in",
+    "liveApiUrl": "https://shopifyapp-api.pidge.in"
+  },
+  "test": {
+    "username": "root",
+    "password": "webenture",
+    "database": "pidgeapp_dev",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "webenture",
+    "database": "pidgeapp",
+    "host": "localhost",
+    "dialect": "mysql",
+    "smtp": {
+      "access_key": "AKIASERAUTYFODMZLNAG",
+      "access_secret": "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",
+      "region": "us-east-1",
+      "from_name": "Pidge",
+      "from_email": "no-reply@mail.pidge.in"
+    },
+    "tokengensalt": "ejwrsdjfsfodsfixsdsdf",
+    "tokengentimestampmap": "amitudaant",
+    "liveUrl": "http://localhost:4200",
+    "liveApiUrl": "https://1cbc0fb5e5bf.ngrok.io"
+  }
+}
